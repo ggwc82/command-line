@@ -1,0 +1,9 @@
+mv is a command that can be used to move or rename a file or directory.
+
+Example 1:
+mv this_file another_directory/this_file
+this will move the file into a subdirectory
+
+Example 2:
+mv this_file that_file
+this command will rename the file
