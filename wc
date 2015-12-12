@@ -1,0 +1,11 @@
+wc is a command that displays the 'word count', aswell as the line and character count.
+
+Example:
+
+wc someTextFile.txt
+The output will display values for the line, word and character counts for that file.
+
+Example 2:
+
+find . -name "*.txt" -print | wc - l
+wc can also be piped with data as a standard input, in the above example all txt files in the current directory and subdirectories will be printed to the screen, one line for each file. The -l flag only displays the line count.
