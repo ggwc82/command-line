@@ -1,0 +1,9 @@
+grep is a command that searches for matching text (or regex) in a specified file and sends the results to the standard output.
+
+Example:
+grep hello introduction.txt
+This command will search and return all lines containing the word 'hello' in the introduction.txt file.
+
+Example 2:
+grep "^B" *.txt
+This command will search all text files with regex ^B, which returns all lines which start with 'B'.
